@@ -165,7 +165,7 @@ public class EZInventoryManager {
 
         if (server != null)
         {
-            worldDir = new File(server.worldServers[0].getSaveHandler().getWorldDirectoryName());
+            worldDir = new File(server.worldServers[0].getSaveHandler().getWorldDirectory());
         }
         else
         {
